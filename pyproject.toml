@@ -1,0 +1,23 @@
+[project]
+name = "blumar"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "duquenav", email = "m.duquenavarrete@lancaster.ac.uk" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.poetry.dependencies]
+flask = "*"
+flask-login = "*"
+pandas = "*"
+openpyxl = "*"
+numpy = "*"
+werkzeug = "*"
+gunicorn = "*"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
